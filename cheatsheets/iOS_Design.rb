@@ -5,7 +5,7 @@ cheatsheet do
   source_url 'http://cheat.kapeli.com'
 
   style '
-  
+
   td.td_notes code {
     border: none;
     box-shadow: none;
@@ -35,6 +35,22 @@ category do
   header 'Device'
   header 'Portrait'
   header 'Landscape'
+
+  entry do
+    td_notes '1080 x 1920 px'
+    td_notes '1920 x 1080 px'
+    name 'iPhone 6 Plus'
+    index_name 'iPhone 6 Plus Resolution'
+    notes ''
+  end
+
+  entry do
+    td_notes '750 x 1334 px'
+    td_notes '1334 x 750 px'
+    name 'iPhone 6'
+    index_name 'iPhone 6 Resolution'
+    notes ''
+  end
 
   entry do
     td_notes '640 x 1136 px'
@@ -101,6 +117,24 @@ category do
   header 'PPI'
   header 'Color Mode'
   header 'Color Temperature'
+
+  entry do
+    td_notes '401'
+    td_notes '8bit RGB'
+    td_notes  ''
+    name 'iPhone 6 Plus'
+    index_name 'iPhone 6 Plus Display'
+    notes ''
+  end
+
+  entry do
+    td_notes '326'
+    td_notes '8bit RGB'
+    td_notes  ''
+    name 'iPhone 6'
+    index_name 'iPhone 6 Display'
+    notes ''
+  end
 
   entry do
     td_notes '326'
